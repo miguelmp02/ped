@@ -1,0 +1,19 @@
+Manual de usuario.
+
+Objetivo:
+El objetivo de esta práctica es realizar un sencillo caso de aplicación cliente-servidor de fecha y hora usando sockets TCP de internet.
+
+Ejecutar:
+Para ejecutar el servidor, se hará uso del comando make servidor y para el cliente make cliente.
+
+Detenciones:
+El cliente se detiene solo cuando le pasa la información al servidor y el servidor se detiene con ctrl + c
+
+Comprobaciones:
+Para comprobar que los procesos cliente servidor de la aplicación contienen en sus nombres las cadenas cli6 y serv6, se usarán los siguientes comandos:
+-> ps -ef | grep serv6
+-> ps -ef | grep cli6
+
+Facilidades:
+Para ver mejor el contenido de los ficheros html ubicados en el directorio www, se puede hacer uso del comando xdg-open fichero.html
+

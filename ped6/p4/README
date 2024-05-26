@@ -1,0 +1,12 @@
+Manual de usuario.
+
+Ejecutar:
+Para ejecutar el servidor, se hará uso del comando make servidor_configurable socket_path=/ruta/nombre_socket y para el cliente es igual, make cliente_configurable socket_path=/ruta/nombre_socket
+
+Detenciones:
+Para parar el servidor se hará uso de ctrl + c y el cliente se detiene solo (en el código está puesto que pare a los 10 segundos para poder comprobar de manera más sencilla que se producen ambos procesos)
+
+Comprobaciones:  
+Para comprobar que los procesos cliente servidor de la aplicación contienen en sus nombres las cadenas cli4 y serv4, se usarán los siguientes comandos:
+-> ps -ef | grep serv4
+-> ps -ef | grep cli4

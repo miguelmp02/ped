@@ -1,0 +1,17 @@
+Manual de arquitectura.
+
+Componentes Principales:
+
+  - Servidor: Maneja las conexiones de los clientes, reenvía mensajes y gestiona la autenticación.
+  - Cliente: Permite a los usuarios conectarse al servidor, enviar y recibir mensajes.
+
+Detalles de Implementación:
+
+  - Tecnologías Utilizadas:
+        Python, sockets TCP, threading
+
+Flujo de Datos:
+
+  - El cliente se conecta al servidor.
+  - El servidor autentica al cliente.
+  - Los mensajes se envían y reciben a través del servidor, que los retransmite a todos los clientes conectados.

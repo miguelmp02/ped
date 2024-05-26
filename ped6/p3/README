@@ -1,0 +1,14 @@
+Manual de usuario.
+
+Información:
+Gracias a esta práctica, podremos crearnos FIFOs para que haya comunicación entre cliente y servidor, de tal manera que el servidor responda al cliente con el contenido de un fichero.
+
+Ejecutar:
+Para ejecutar, se hará uso del comando make servidor (ejecutará el servidor) y luego while true; do make cliente; done para ejecutar el cliente y comprobar que no se cierra el servidor
+
+Comprobaciones:
+Para comprobar que los procesos cliente servidor de la aplicación contienen en sus nombres las cadenas cli3 y serv3, se usarán los siguientes comandos:
+ - ps -ef | grep cli3
+ - ps -ef | grep serv3
+
+Primero se ejecutará el servidor y podemos meter contenido en el fichero y posteriormente el cliente (desde otra terminal para ver los cambios) el cuál pedirá la ruta del fichero (este estará creado a la misma altura que las clases, makefile...).

@@ -1,0 +1,8 @@
+Manual de usuario
+
+Objetivo:
+El cliente envía una solicitud al servidor y el servidor responde con la fecha y hora actual.
+El proceso padre ejecuta la función "cliente" y el proceso hijo ejecuta la función "servidor".
+
+Ejecución:
+Para ejecutar el código, se hará uso del comando make ejecutar (ver instalación de make en el fichero INSTALL).

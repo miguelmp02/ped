@@ -1,0 +1,18 @@
+Manual de usuario.
+
+Objetivo:
+El objetivo de esta práctica es realizar un sencillo chat entre varios usuarios usando sockets TCP de internet.
+
+Ejecutar:
+Para ejecutar el servidor, se hará uso del comando make servidor <ip> <puerto> y para el cliente make cliente <ip> <puerto>.
+
+Detenciones:
+El cliente se detiene poniendo /salir y el servidor se detiene con ctrl + c y para cerrarlo se vuelve a poner ctrol + c
+
+Comprobaciones:
+Para comprobar que los procesos cliente servidor de la aplicación contienen en sus nombres las cadenas cli7 y serv7, se usarán los siguientes comandos:
+-> ps -ef | grep serv7
+-> ps -ef | grep cli7
+
+Facilidades:
+Para ver mejor el contenido de los ficheros html ubicados en el directorio www, se puede hacer uso del comando xdg-open fichero.html

@@ -1,0 +1,12 @@
+Manual de instalación, administración y configuración.
+
+Make:
+Si no se tiene instalado make en linux, se hará uso del comando sudo apt install make
+
+Python:
+Si no se tiene instalado python en linux, usaremos el comando sudo apt install python3
+
+Se ha instalado el módulo "setproctitle" para poder nombrar a los procesos correspondientes. Se utilzia el comando:
+
+    -   sudo apt install python3-setproctitle
+

@@ -1,0 +1,17 @@
+Manual de usuario.
+
+Objetivo:
+El objetivo de esta práctica es realizar un sencillo caso de aplicación cliente-servidor de ficheros usando sockets UDP de internet.
+
+Ejecutar:
+Para ejecutar el servidor, se hará uso del comando make servidor y para el cliente make cliente(fichero "/etc/services" por defecto). Se introduce la ruta al archivo así como el puerto a utilizar en el Makefile. Además, se ha incluido un cliente alternativo para leer el contenido del archivo '/bin/sh'. Si se desea cambiar el puerto o la ruta, habría que editar el Makefile.
+
+Se traslada el contenido del archivo en cuestión a un nuevo documento llamado 'archivo'. Al ejecutar el comando ("diff /etc/services archivo", por ejemplo) se comprueba que son idénticos, resolviendo correctamente los requisitos.
+
+Detenciones:
+El cliente se detiene solo cuando le pasa la información al servidor y el servidor se detiene con ctrl + c
+
+Comprobaciones:
+Para comprobar que los procesos cliente servidor de la aplicación contienen en sus nombres las cadenas cli5 y serv5, se usarán los siguientes comandos:
+-> ps -ef | grep serv5
+-> ps -ef | grep cli5

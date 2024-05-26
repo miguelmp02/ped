@@ -1,0 +1,11 @@
+Manual de usuario
+
+Objetivo:
+Se implementa un bucle continuo en el que el cliente envía un path al servidor y el servidor responde con el contenido del fichero de ese path.
+El proceso padre ejecuta la función "cliente" y el proceso hijo ejecuta la función "servidor".
+
+Ejecución:
+Para ejecutar el código, se hará uso del comando make ejecutar (ver instalación de make en el fichero INSTALL).
+
+Facilidades:
+Se ha procedido a realizar un timeout de 10 segundos a cada proceso para que se pueda verificar la creación de ambos procesos. Para que se cierren ambos procesos al producirse la respuesta, se pueden eliminar ambas líneas : "time.sleep(10)"
